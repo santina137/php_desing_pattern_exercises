@@ -7,10 +7,14 @@ interface Filter
 
 class BAndWFilter implements Filter
 {
-//  Your code here
+public function getFilter(){
+return 'Black and white filter'. PHP_EOL;
+}
 }
 
 class SepiaFilter implements Filter
 {
-//  Your code here
+public function getFilter(){
+return 'Sepia filter'. PHP_EOL;
+}
 }
